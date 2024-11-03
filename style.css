@@ -1,0 +1,416 @@
+
+.header h1{
+    font-family: 'Courier New',  monospace;
+    color: #F0ECCF;
+}
+
+.menu1{
+    background-color:#232F3E;
+}
+.menu{
+    display: flex;    
+    justify-content: space-between;
+    font-family: monospace;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title1{
+    background-color:#131921;
+}
+
+.title{
+    padding: 1%;
+    margin-left: 40%;
+    display: flex;
+    font-family: monospace;
+    font-size:125% ;
+
+}
+.info{
+    background-color:#F0ECCF;
+    font-family: 'Courier New',  monospace;
+    font-size: 125% ;
+    font-family: 'Courier New',  monospace;
+    color: #232F3E;
+}
+
+.info a{
+  color: #232F3E;
+  font-family: 'Courier New',  monospace;
+}
+.title img{   
+    width:8%;
+    height:8%;
+}
+
+
+.t{
+    font-size: 20px; 
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.t a{
+  color: #F0ECCF;
+}
+.t1 a{
+  color: #F0ECCF;
+}
+.t1{
+    font-size: 20px; 
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+
+
+a:link{
+    text-decoration:none ;
+    font-family: monospace;
+
+}
+a:visited{
+    font-family: monospace;
+    text-decoration:none ;
+}
+
+
+
+
+
+body{
+    background-color: #131921;
+    margin:0px;
+    font-family: 'Courier New',  monospace;
+}
+
+.body{
+    background-color: #F0ECCF;
+    font-family: 'Courier New',  monospace;
+}
+
+
+
+
+
+.marquee{
+    font-family: monospace;
+    display: flex;
+    justify-content: space-between;
+    background-color:#ffb50a;
+    font-size: 100%;
+    
+}
+marquee{
+  animation: blinker 1.5s linear infinite;
+  color: #A22328;
+}
+
+.marq{
+  background-color:#ffb50a;
+    height: 45px;
+}
+
+.marq a{  
+    color: #138003;  
+}
+
+@keyframes blinker{
+    50%{
+        opacity:0;
+    }
+}
+
+.facilities{
+  padding: 7%;
+  line-height: 2;
+}
+
+.cypher{
+  padding: 5%;
+}
+
+.cypher h3{
+  margin-top: 2%;
+  line-height: 2;
+}
+
+.cypher h2{
+  font-size: 200%;
+  margin-bottom: 2%;
+  font-family: 'Courier New', Courier, monospace;
+  color: #232F3E;
+}
+
+.body h2{
+    font-size: 200%;
+    margin-top: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    color: #232F3E;
+}
+
+.abme h3{
+  margin-top: 3%;
+  line-height: 2;
+}
+
+.abme p{
+  margin-top: 3%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 150%;
+}
+
+.abme{
+  padding:2%;
+}
+
+.more h2{
+    color: #F0ECCF;
+}
+.more{
+  border-radius: 20px;
+  width: 15%;
+  height: 30%;
+  padding: 2%;
+  background-color:#131921 ;
+  color: #F0ECCF;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+
+
+
+
+
+.footer{
+    display: flex;
+    color: #F0ECCF;
+    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: space-between;
+}
+
+.grid{
+    width: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: #F0ECCF;
+}
+
+.copyright{
+    font-family: 'Courier New', Courier, monospace;
+    color: #F0ECCF;
+    font-size: 100%;
+    margin-top: 2%;
+}
+
+
+
+.slider{
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img{
+  width: 100%;
+  height: 700px;
+}
+
+.login input{
+    padding:1%;
+    border-radius: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.login input:hover{
+  padding:1%;
+  border-radius: 50px;
+  margin-top: 50px;
+  width: 220px;
+  height: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+.login h2{
+    font-size: 50px;
+    
+    color: #F0ECCF;
+}
+.login1{
+    padding:1%;
+}
+.login{
+
+    background-color:#232F3E;
+    width: 500px;
+    height: 600px;
+    border-radius: 80px;
+
+}
+button{
+    margin-top:20px;
+    font-size: 20px;
+    color: #F0ECCF;
+    width:200px;
+    height: 70px;
+    border-radius: 200px;
+    background-color: #131921;
+    margin-bottom: 10px;
+  }
+  button:hover{
+    margin-top:20px;
+    font-size: 20px;
+    color: #F0ECCF;
+    width:220px;
+    height: 80px;
+    border-radius: 200px;
+    background-color: #131921;
+    margin-bottom: 10px;
+  }
+  .signup h2{
+    font-size: 50px;
+    
+    color: #131921;
+}
+  .signup input{
+    padding:1%;
+    border-radius: 50px;
+    margin-top: 20px;
+    width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+  }
+  .signup input:hover{
+    padding:1%;
+    border-radius: 50px;
+    margin-top: 20px;
+    width: 210px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+  }
+  .keyfea{
+    padding:10%;
+    width: 800px;
+    margin-left: 15%;
+  }
+  .product{
+    width: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 50px;
+    text-align: center;
+    color: #000000;
+    background-color: aliceblue;
+  }
+  .product:hover{
+    width: 18%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 50px;
+    text-align: center;
+    color: #000000;
+    background-color: aliceblue;
+  }
+  .pro{
+    display: flex;
+    color: #F0ECCF;
+    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: space-between;
+    padding:2%;
+  }
+  .scearch input{
+    padding:1%;
+    border-radius: 50px;
+    margin-top: 20px;
+    width: 500px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+  }
+  
+  .scearch button{
+  margin-top:20px;
+  font-size: 20px;
+  color: #F0ECCF;
+  width:150px;
+  height: 50px;
+  border-radius: 200px;
+  background-color: #131921;
+  margin-bottom: 10px;
+}
+.scearch button:hover{
+  margin-top:20px;
+  font-size: 20px;
+  color: #F0ECCF;
+  width:170px;
+  height: 60px;
+  border-radius: 200px;
+  background-color: #131921;
+  margin-bottom: 10px;
+}
+.product img{
+  border-radius: 40px;
+  margin-top: 10px;
+}
+
+.aboutus img{
+  border-radius: 50px;
+  padding: 1%;
+  height:500px ;
+}
+.aboutus{
+  width: 800px;
+  margin-left:20% ;
+}
+
+.purchase input{
+  padding:1%;
+  border-radius: 50px;
+  margin-top: 10px;
+  width: 150px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+}
+.purchase input:hover{
+  padding:2%;
+  border-radius: 50px;
+  margin-top: 10px;
+  width: 150px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+}
+
+.contact{
+  padding:5%;
+}
+.purchase img{
+  border-radius: 40px;
+  margin-top: 10px;
+}
+
+.footer a{
+  color: #F0ECCF;
+}
